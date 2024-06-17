@@ -1,13 +1,12 @@
-object LabSession1 {
+object LabSession1 extends App{
     // q1:
-    val Pi: Double = 3.14
-    val diskArea = (r: Double) => Pi*r*r;
+    val diskArea = (r: Double) => Math.PI*r*r;
 
     // q2:
     def toFahrenheit(temp: Int): Double = temp*1.8+32
 
     // q3:
-    def sphereVolume(r: Double): Double = 4/3*Pi*r*r*r
+    def sphereVolume(r: Double): Double = 4/3*Math.PI*r*r*r
 
     // q4:
     val bookPrice = 24.95
@@ -20,19 +19,18 @@ object LabSession1 {
     val easyPace = (dist: Int) => dist*8
     val tempoPace = (dist: Int) => dist*7
 
-    def main(args: Array[String]): Unit = {
 
-        val radius : Int = 5
-        println("Area of disk: " + diskArea(radius))
+    val radius : Int = 5
+    println("Area of disk: " + diskArea(radius))
 
-        val cTemp = 35
-        println("Temperature in Fahrenheit: " + toFahrenheit(cTemp))
+    val cTemp = 35
+    println("Temperature in Fahrenheit: " + toFahrenheit(cTemp))
 
-        println("Volume of sphere: " + sphereVolume(radius))
+    println("Volume of sphere: " + sphereVolume(radius))
 
-        val n = 60
-        println("Wholesale book cost: " + finalCost(n))
+    val n = 60
+    println("Wholesale book cost: " + finalCost(n))
 
-        println("Total running time: " + (easyPace(2) + tempoPace(3) + easyPace(2)) + " minutes")
-    }
+    println("Total running time: " + (easyPace(2) + tempoPace(3) + easyPace(2)) + " minutes")
+    
 }
