@@ -1,5 +1,6 @@
-import scala.io.StdIn.readLine
+// Inventory Management System
 
+import scala.io.StdIn.readLine
 object Q1 extends App {
     var productNames: List[String] = List.empty[String]
 
