@@ -32,11 +32,6 @@ object Q2 extends App {
     }
     val printStudentRecord = (studTuple: (String, Int, Int, Double, Char)) => {
         val (name, marks, possMarks, percent, grade) = studTuple
-        // println(s"Name: $studTuple(0)\n" +
-        //   s"Marks: $studTuple[1]\n" +
-        //   s"Total possible marks: $studTuple(2)\n" +
-        //   s"Percentage: $studTuple(3)\n" +
-        //   s"Grade: $studTuple(4)")
         
         println(s"\nName: $name\n" +
           s"Marks: $marks\n" +
