@@ -9,7 +9,7 @@ object Q1 extends App {
         274 -> Product("NoteBook", 5, 80)
     )
     var inventory2: Map[Int, Product] = Map(
-        101 -> Product("Pen", 5, 25)
+        101 -> Product("Pen", 5, 20)
     )
     var inventory3: Map[Int, Product] = Map()
 
