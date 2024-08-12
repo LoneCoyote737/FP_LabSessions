@@ -13,5 +13,4 @@ object Q2 extends App {
         case x if multipleOf(x, 5) => "Multiple of Five"
         case x => "Not a Multiple of Three or Five"
     })
-
 }
