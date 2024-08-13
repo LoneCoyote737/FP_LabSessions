@@ -64,3 +64,8 @@ WARNING: Unmatched cancel notification for request id 10
 2024.08.12 18:14:03 INFO  time: compiled FP_LabSessions_f4dd477a3a in 4.34s
 2024.08.12 18:14:04 INFO  compiling fp_labsessions_f4dd477a3a (22 scala sources)
 2024.08.12 18:14:05 INFO  time: compiled FP_LabSessions_f4dd477a3a in 1.43s
+2024.08.12 18:22:12 INFO  Shutting down server
+2024.08.12 18:22:12 INFO  shutting down Metals
+2024.08.12 18:22:13 INFO  Shut down connection with build server.
+2024.08.12 18:22:13 INFO  Cancelling compilation on scala-cli server
+2024.08.12 18:22:12 INFO  Exiting server
