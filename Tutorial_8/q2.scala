@@ -1,6 +1,5 @@
 // Integer pattern  matching
 
-import scala.io.StdIn
 object Q2 extends App {
     println("Enter an integer:")
     var myNum = scala.io.StdIn.readInt()
