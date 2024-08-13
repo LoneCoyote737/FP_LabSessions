@@ -3,16 +3,16 @@
 object Q1 extends App {
     def encryptCeaser (msg: String, shift: Int) = {
         msg.map {
-            case 'z' => 'a'
-            case 'Z' => 'A'
+            case 'z' => ('a' - 1 + shift).toChar
+            case 'Z' => ('A' - 1 + shift).toChar
             case c if c.isLetter => (c + shift).toChar
             case c => c
         }
     }
     def decryptCeaser (msg: String, shift: Int) = {
         msg.map {
-            case 'a' => 'z'
-            case 'A' => 'Z'
+            case 'a' => ('z' + 1 - shift).toChar
+            case 'A' => ('Z' + 1 - shift).toChar
             case c if c.isLetter => (c - shift).toChar
             case c => c
         }
