@@ -69,3 +69,74 @@ WARNING: Unmatched cancel notification for request id 10
 2024.08.12 18:22:13 INFO  Shut down connection with build server.
 2024.08.12 18:22:13 INFO  Cancelling compilation on scala-cli server
 2024.08.12 18:22:12 INFO  Exiting server
+2024.08.18 14:59:10 INFO  Started: Metals version 1.3.5 in folders 'C:\Users\hp\Desktop\All Programmes\FP_LabSessions' for client Visual Studio Code 1.78.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@5e50bab8]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@66472752]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@5e50bab8]
+2024.08.18 14:59:15 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.18 14:59:16 INFO  Attempting to connect to the build server...
+2024.08.18 14:59:16 INFO  Running BSP server List(C:\Program Files\scala-cli-x86_64-pc-win32\scala-cli.EXE, bsp, --json-options, C:\Users\hp\Desktop\All Programmes\FP_LabSessions\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\hp\Desktop\All Programmes\FP_LabSessions\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\hp\Desktop\All Programmes\FP_LabSessions\.scala-build\ide-envs.json, C:\Users\hp\Desktop\All Programmes\FP_LabSessions)
+2024.08.18 14:59:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\Desktop\All Programmes\FP_LabSessions\.metals\bsp.trace.json or C:\Users\hp\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.18 14:59:22 INFO  BSP server: Starting compilation server
+2024.08.18 14:59:25 INFO  no build target found for C:\Users\hp\Desktop\All Programmes\FP_LabSessions\Tutorial_9\q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.18 14:59:30 INFO  no build target found for C:\Users\hp\Desktop\All Programmes\FP_LabSessions\Tutorial_9\q2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.18 14:59:34 WARN  Could not find semantic tokens for: file:///C:/Users/hp/Desktop/All%20Programmes/FP_LabSessions/Tutorial_9/q1.scala
+2024.08.18 14:59:34 WARN  Could not find semantic tokens for: file:///C:/Users/hp/Desktop/All%20Programmes/FP_LabSessions/Tutorial_9/q2.scala
+2024.08.18 14:59:37 INFO  time: Connected to build server in 21s
+2024.08.18 14:59:37 INFO  Connected to Build server: scala-cli v1.4.0
+2024.08.18 14:59:37 INFO  time: Imported build in 0.27s
+2024.08.18 14:59:38 INFO  running doctor check
+2024.08.18 14:59:38 INFO  java targets: FP_LabSessions_f4dd477a3a, FP_LabSessions_f4dd477a3a-test
+2024.08.18 14:59:39 INFO  compiling fp_labsessions_f4dd477a3a (24 scala sources)
+2024.08.18 14:59:41 INFO  no build target found for C:\Users\hp\Desktop\All Programmes\FP_LabSessions\Tutorial_9\q3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.18 14:59:42 WARN  Could not find semantic tokens for: file:///C:/Users/hp/Desktop/All%20Programmes/FP_LabSessions/Tutorial_9/q3.scala
+2024.08.18 14:59:52 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.18 14:59:54 INFO  time: compiled FP_LabSessions_f4dd477a3a in 14s
+2024.08.18 14:59:54 INFO  compiling fp_labsessions_f4dd477a3a (25 scala sources)
+2024.08.18 14:59:54 INFO  Deduplicating compilation of FP_LabSessions_f4dd477a3a from bsp client 'scala-cli 1.4.0' (since 18.136s)
+2024.08.18 14:59:54 INFO  compiling fp_labsessions_f4dd477a3a (25 scala sources)
+2024.08.18 14:59:54 INFO  time: Imported build in 11s
+2024.08.18 14:59:55 INFO  running doctor check
+2024.08.18 14:59:55 INFO  java targets: FP_LabSessions_f4dd477a3a, FP_LabSessions_f4dd477a3a-test
+2024.08.18 14:59:55 INFO  time: indexed workspace in 17s
+Aug 18, 2024 3:00:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.08.18 15:00:01 WARN  Could not find semantic tokens for: file:///C:/Users/hp/Desktop/All%20Programmes/FP_LabSessions/Tutorial_9/q1.scala
+2024.08.18 15:00:01 INFO  compiling fp_labsessions_f4dd477a3a (25 scala sources)
+Aug 18, 2024 3:00:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.08.18 15:00:04 INFO  Deduplicating compilation of FP_LabSessions_f4dd477a3a from bsp client 'scala-cli 1.4.0' (since 28.251s)
+2024.08.18 15:00:04 INFO  compiling fp_labsessions_f4dd477a3a (25 scala sources)
+2024.08.18 15:00:06 INFO  time: compiled FP_LabSessions_f4dd477a3a in 2.45s
+2024.08.18 15:00:07 WARN  Could not find semantic tokens for: file:///C:/Users/hp/Desktop/All%20Programmes/FP_LabSessions/Tutorial_9/q1.scala
+2024.08.18 15:00:06 INFO  compiling fp_labsessions_f4dd477a3a (25 scala sources)
+2024.08.18 15:00:08 INFO  time: indexed workspace in 13s
+2024.08.18 15:00:09 INFO  Deduplicating compilation of FP_LabSessions_f4dd477a3a from bsp client 'scala-cli 1.4.0' (since 33.144s)
+2024.08.18 15:00:09 INFO  compiling fp_labsessions_f4dd477a3a (25 scala sources)
+2024.08.18 15:00:09 INFO  time: compiled FP_LabSessions_f4dd477a3a in 0.66s
+2024.08.18 15:00:10 WARN  Could not find semantic tokens for: file:///C:/Users/hp/Desktop/All%20Programmes/FP_LabSessions/Tutorial_9/q1.scala
+2024.08.18 15:00:10 INFO  compiling fp_labsessions_f4dd477a3a (25 scala sources)
+2024.08.18 15:00:12 WARN  Could not find semantic tokens for: file:///C:/Users/hp/Desktop/All%20Programmes/FP_LabSessions/Tutorial_9/q1.scala
+2024.08.18 15:00:13 INFO  time: compiled FP_LabSessions_f4dd477a3a in 3.12s
+2024.08.18 15:00:14 WARN  Could not find semantic tokens for: file:///C:/Users/hp/Desktop/All%20Programmes/FP_LabSessions/Tutorial_9/q1.scala
+2024.08.18 15:00:13 INFO  compiling fp_labsessions_f4dd477a3a (25 scala sources)
+Aug 18, 2024 3:00:16 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.08.18 15:00:17 INFO  time: compiled FP_LabSessions_f4dd477a3a in 2.56s
+2024.08.18 15:00:17 WARN  Could not find semantic tokens for: file:///C:/Users/hp/Desktop/All%20Programmes/FP_LabSessions/Tutorial_9/q1.scala
+2024.08.18 15:00:23 WARN  Could not find semantic tokens for: file:///C:/Users/hp/Desktop/All%20Programmes/FP_LabSessions/Tutorial_9/q1.scala
+2024.08.18 15:00:25 WARN  Could not find semantic tokens for: file:///C:/Users/hp/Desktop/All%20Programmes/FP_LabSessions/Tutorial_9/q1.scala
+Aug 18, 2024 3:00:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 18, 2024 3:00:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 18, 2024 3:00:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.08.18 15:01:37 INFO  compiling fp_labsessions_f4dd477a3a (25 scala sources)
+2024.08.18 15:01:38 INFO  time: compiled FP_LabSessions_f4dd477a3a in 1.17s
+2024.08.18 15:02:03 INFO  Shutting down server
+2024.08.18 15:02:03 INFO  shutting down Metals
+2024.08.18 15:02:03 INFO  Shut down connection with build server.
+2024.08.18 15:02:03 INFO  Exiting server
