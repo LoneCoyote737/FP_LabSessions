@@ -10,7 +10,7 @@ object Q1 extends App {
         case x => calcInterest(x, 6.5)
     }
 
-    println("Deposit amount: ")
+    print("Deposit amount: ")
     var depositInput = scala.io.StdIn.readDouble()
 
     println("Yearly interest amounts to: " + findInterest(depositInput))
