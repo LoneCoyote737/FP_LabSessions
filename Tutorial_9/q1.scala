@@ -1,6 +1,6 @@
 // interest calculating function
 
-object Q3 extends App {
+object Q1 extends App {
 
     val calcInterest = (deposit: Double, rate: Double) => deposit * rate / 100  
     val findInterest = (deposit: Double) => deposit match {
