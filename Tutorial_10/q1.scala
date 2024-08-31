@@ -1,5 +1,4 @@
 object Q1 extends App {
-
     // a function to find Greatest Common Divisor (GCD):
     def gcd(a: Int, b: Int): Int = if(b == 0) a else gcd(b, a % b)
 
@@ -15,10 +14,9 @@ object Q1 extends App {
         override def toString: String = s"$numer/$denom"
     }
 
-    // Example usage:
     val x = new Rational(3, 4)
     val negX = x.neg
-    println(s"Negation of $x: $negX")
+    println(s"Negation of $x: $negX\n")
 
     println("Enter a rational number:")
     print("Numerator: ")
