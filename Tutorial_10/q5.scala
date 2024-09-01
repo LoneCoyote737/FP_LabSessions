@@ -4,5 +4,7 @@ object Q5 extends App {
     }
 
     val myList = List("apple", "banana", "cherry", "date")
+    println("List of words:")
+    println(myList)
     println(s"Total count of letter occurrences: ${{countLetterOccurrences(myList)}}")
 }
